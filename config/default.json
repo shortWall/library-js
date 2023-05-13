@@ -1,0 +1,7 @@
+{
+    "name" : "library -app",
+    "db" :{
+        "address" : "mongodb://127.0.0.1:27017/library"
+    },
+    "jwt_key": "sadhhkkj13khfewFDS13yfsd1D12dsar6Rxal'k3Yfs9FSZsdacxv4"
+}
