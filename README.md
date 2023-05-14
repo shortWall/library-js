@@ -19,8 +19,8 @@ $ node index
 **_Post_-> localhost:3000/books**  for add new book to books database with this format.
 ```
 {
-    "name"   : string , //neccessery
-    "author" : string , //neccessery
+    "name"   : string , //necessary
+    "author" : string , //necessary
     "edit"   : number , //optional
     "pages"  : number   //optional
  }
