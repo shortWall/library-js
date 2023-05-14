@@ -7,10 +7,10 @@ it is a library app with mongoDB. you can register books and then registered use
 # installation
 
 ```
->$ mongod 
+$ mongod 
 ```
 ```
->$ node index
+$ node index
 ```
 
 
