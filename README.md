@@ -1,13 +1,24 @@
 
 # library
 
+# description
+it is a library app with mongoDB. you can register books and then registered user can borrow books.
+
+# insalation
+
+$ mongod 
+$ node index
+
+
+## usage
+
 **_Post_-> localhost:3000/books**  for add new book to books database with this format.
 ```
 {
-    "name"   : string , neccessery
-    "author" : string , neccessery
-    "edit"   : number , optional
-    "pages"  : number   optional
+    "name"   : string , //neccessery
+    "author" : string , //neccessery
+    "edit"   : number , //optional
+    "pages"  : number   //optional
  }
  ```
  
@@ -30,7 +41,7 @@
 **_Post_-> localhost:3000/users/register** register user.
 ```
 {
-    "books"      : array(ObjectId(book)), optional
+    "books"      : array(ObjectId(bookid)), //optional
     "first_name" : string,
     "last_name"  : string,
     "username"   : string, // must be unique
@@ -66,6 +77,8 @@ must give token in req.header("token").
 **_Get_ -> localhost:3000/users/showuser/:id** show user with specific id.
 
 
+if input be correct return a json with massage and data fields.
+if input be incorrect return a json/text with massage and emptty data fields. 
 
 
 
