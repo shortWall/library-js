@@ -81,7 +81,7 @@ must give token in req.header("token").
 **_Get_ -> localhost:3000/users/showuser/:id** show user with specific id.
 
 
-if input be correct return a json with massage and data fields.
+if input be correct return a json with massage and data fields.<br />
 if input be incorrect return a json/text with massage and emptty data fields. 
 
 
