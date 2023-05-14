@@ -4,10 +4,10 @@
 # description
 it is a library app with mongoDB. you can register books and then registered user can borrow books.
 
-# insalation
+# installation
 
-$ mongod 
-$ node index
+>$ mongod 
+>$ node index
 
 
 ## usage
