@@ -2,12 +2,12 @@
 # library
 
 **Post-> localhost:3000/books**  for add new book to books database with this format.
-`{
+```
     "name"   : string , neccessery
     "author" : string , neccessery
     "edit"   : number , optional
     "pages"  : number   optional
- }`
+ ```
  
 **Get -> localhost:3000/books** for get all books.
 
